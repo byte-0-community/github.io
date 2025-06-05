@@ -14,9 +14,6 @@ Este repositorio contiene un laboratorio de **phishing** con fines educativos, d
 ## 🛠️ Herramientas Utilizadas
 
 - Kali Linux
-- Apache2 / PHP
-- N
-
 
 
 
