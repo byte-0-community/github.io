@@ -1,3 +1,25 @@
+# 🎣 Proyecto de Phishing Educativo
+
+Este repositorio contiene un laboratorio de **phishing** con fines educativos, desarrollado como parte de un curso de Ingeniería en Ciberseguridad. Su propósito es enseñar cómo funcionan los ataques de ingeniería social y cómo protegerse de ellos.
+
+> ⚠️ **Advertencia**: Este proyecto es únicamente para fines educativos. El uso indebido de estas técnicas fuera de un entorno controlado y ético puede ser ilegal. El autor no se hace responsable del mal uso del contenido.
+
+## 🧠 Objetivos del Proyecto
+
+- Simular un ataque de phishing básico
+- Analizar cómo se recolectan credenciales falsas
+- Aplicar conceptos de ingeniería social y ciberseguridad defensiva
+- Mostrar cómo detectar este tipo de ataques
+
+## 🛠️ Herramientas Utilizadas
+
+- Kali Linux
+- Apache2 / PHP
+- N
+
+
+
+
 # 🔍 Análisis de Herramientas OSINT
 
 ## Autor:
@@ -26,9 +48,31 @@ Este proyecto presenta un análisis práctico de herramientas OSINT (*Open Sourc
 | `Maltego`        | Análisis visual de relaciones digitales.              |
 | `Sherlock`       | Identificación de usuarios en múltiples plataformas.  |
 | `Google Dorks`   | Búsqueda avanzada de información mediante operadores. |
-
 ---
 
-## 🗂️ Estructura del Proyecto:
+
+# 🛡️ Análisis de Vulnerabilidades Web con OWASP ZAP
+
+Este repositorio documenta un laboratorio práctico de **análisis de seguridad en aplicaciones web** utilizando **OWASP ZAP (Zed Attack Proxy)**, una herramienta gratuita y de código abierto para realizar pruebas de penetración automatizadas.
+
+> 🔍 **Propósito educativo**: Este proyecto se desarrolló como parte de una asignatura de Ingeniería en Ciberseguridad. Se recomienda su uso únicamente en entornos controlados y autorizados.
+
+## 🎯 Objetivos del Proyecto
+
+- Utilizar OWASP ZAP para detectar vulnerabilidades comunes en aplicaciones web.
+- Simular ataques automatizados y análisis pasivos.
+- Comprender cómo se presentan los riesgos OWASP Top 10.
+- Aplicar buenas prácticas en la revisión de seguridad web.
+
+## 🧰 Herramientas Utilizadas
+
+- 🔧 **OWASP ZAP** (GUI y modo Headless)
+- 🌐 Aplicación vulnerable: [DVWA](https://github.com/digininja/DVWA) o [BWAPP](https://sourceforge.net/projects/bwapp/)
+- 🐧 Kali Linux o cualquier entorno con Java
+- 🕸️ Navegador web (Firefox/Chrome configurado con proxy)
+- 📊 Wireshark (opcional, para análisis de tráfico)
+
+
+
 
 
