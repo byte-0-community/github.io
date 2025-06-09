@@ -4,15 +4,15 @@
 
 - **`Aircrack-ng`**: Es una suite de herramientas para auditoría y seguridad de redes Wi-Fi. Se usa para capturar datos de redes inalámbricas y crackear contraseñas de redes protegidas.
     
-    ![1_anlLWC6WzK1ZqafjXg_f0Q.png]("Secuestro de handshake y Rogue AP"/1_anlLWC6WzK1ZqafjXg_f0Q.png)
+    ![1_anlLWC6WzK1ZqafjXg_f0Q.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%/1_anlLWC6WzK1ZqafjXg_f0Q.png)
     
 - **`Antena con modo monitor`**: Es una antena o adaptador de red Wi-Fi que se configura para escuchar todo el tráfico de las redes cercanas, no solo el tráfico destinado a tu dispositivo. El modo monitor es esencial para analizar redes Wi-Fi.
     
-    ![image-17.webp](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/image-17.webp)
+    ![image-17.webp](Secuestro%20de%20handshake%20y%20Rogue%20AP%/image-17.webp)
     
 - **`Frecuencia**:` En Wi-Fi, la frecuencia es la banda en la que la red transmite señales. Las redes Wi-Fi operan en frecuencias específicas, como 2.4 GHz y 5 GHz, que determinan la velocidad y el alcance de la conexión.
     
-    ![840_560.jpg](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/8727f463-5519-4cf0-ab5e-4ba49583b479.png)
+    ![840_560.jpg](Secuestro%20de%20handshake%20y%20Rogue%20AP%/8727f463-5519-4cf0-ab5e-4ba49583b479.png)
     
 - **`Canales (1-12)**:` Los canales son subdivisiones dentro de las frecuencias de Wi-Fi (como 2.4 GHz). Cada canal tiene un número (del 1 al 12 en la banda de 2.4 GHz) y las redes Wi-Fi utilizan diferentes canales para evitar interferencias.
     
