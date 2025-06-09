@@ -8,15 +8,15 @@
     
 - **`Antena con modo monitor`**: Es una antena o adaptador de red Wi-Fi que se configura para escuchar todo el tráfico de las redes cercanas, no solo el tráfico destinado a tu dispositivo. El modo monitor es esencial para analizar redes Wi-Fi.
     
-    ![image-17.webp](Secuestro%20de%20handshake%20y%20Rogue%20AP%/image-17.webp)
+    ![image-17.webp](Secuestro%20de%20handshake%20y%20Rogue%20AP/image-17.webp)
     
 - **`Frecuencia**:` En Wi-Fi, la frecuencia es la banda en la que la red transmite señales. Las redes Wi-Fi operan en frecuencias específicas, como 2.4 GHz y 5 GHz, que determinan la velocidad y el alcance de la conexión.
     
-    ![840_560.jpg](Secuestro%20de%20handshake%20y%20Rogue%20AP%/8727f463-5519-4cf0-ab5e-4ba49583b479.png)
+    ![840_560.jpg](Secuestro%20de%20handshake%20y%20Rogue%20AP/8727f463-5519-4cf0-ab5e-4ba49583b479.png)
     
 - **`Canales (1-12)**:` Los canales son subdivisiones dentro de las frecuencias de Wi-Fi (como 2.4 GHz). Cada canal tiene un número (del 1 al 12 en la banda de 2.4 GHz) y las redes Wi-Fi utilizan diferentes canales para evitar interferencias.
     
-    ![canales.webp](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/canales.webp)
+    ![canales.webp](Secuestro%20de%20handshake%20y%20Rogue%20AP/canales.webp)
     
 
 # INICIO
@@ -35,7 +35,7 @@ o
 ip a
 ```
 
-![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/image.png)
+![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/image.png)
 
 ### Cambiar la antena al modo monitor
 
@@ -51,7 +51,7 @@ sudo airmon-ng start wlx9c5322bcbd22
     - **start**: Inicia el modo monitor.
     - **wlx9c5322bcbd22**: El nombre de tu adaptador Wi-Fi específico.
 
-![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/image%201.png)
+![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/image%201.png)
 
 ### Localizar las redes WiFi a auditar
 
@@ -64,7 +64,7 @@ sudo airodump-ng wlx9c5322bcbd22
     - **airodump-ng**: Herramienta de la suite **Aircrack-ng** para capturar paquetes de datos de redes Wi-Fi. Es útil para monitorear redes y recolectar información, como nombres de redes (SSID), direcciones MAC de los routers y dispositivos conectados.
     - **wlx9c5322bcbd22**: El nombre de tu adaptador Wi-Fi, que en este caso está en modo monitor (como lo configuraste con **airmon-ng**).
 
-![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/image%202.png)
+![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/image%202.png)
 
 Es importante obtener el BSSID y el canal de la red a auditar.
 
@@ -76,11 +76,11 @@ Es importante obtener el BSSID y el canal de la red a auditar.
 
 Una vez ejecutado, lo dejamos en escucha hasta que se conecte un dispositivo y captura el STATION del dispositivo para después poder desconectarlo.
 
-![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/imagen.png)
+![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/imagen.png)
 
-![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/imagen%201.png)
+![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/imagen%201.png)
 
-![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/image%203.png)
+![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/image%203.png)
 
 1. comando para capturar el hanshake
     
@@ -114,15 +114,15 @@ sudo aireplay-ng -0 9 -a E8:65:D4:9D:95:70 -c 7E:53:A5:62:21:69 wlx9c5322bcbd22
     - **c 7E:53:A5:62:21:69**: Es la **dirección MAC** del dispositivo objetivo (el "station") que quieres desconectar de la red.
     - **wlx9c5322bcbd22**: Es el nombre de tu adaptador Wi-Fi que está en **modo monitor**, que se utiliza para enviar los paquetes de desautenticación.
 
-![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/imagen%202.png)
+![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/imagen%202.png)
 
-![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/imagen%203.png)
+![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/imagen%203.png)
 
 ### Romper el archivo .cap
 
-![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/imagen%204.png)
+![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/imagen%204.png)
 
-![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/imagen%205.png)
+![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/imagen%205.png)
 
 ```bash
 sudo aircrack-ng -b E8:65:D4:9D:95:70 -w /usr/share/wordlists/rockyou.txt hanshake-02.cap
@@ -135,7 +135,7 @@ sudo aircrack-ng -b E8:65:D4:9D:95:70 -w /usr/share/wordlists/rockyou.txt hansha
     - **w /usr/share/wordlists/rockyou.txt**: Lista de contraseñas a probar.
     - **handshake-02.cap**: Archivo con los datos capturados de la red.
 
-![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/imagen%206.png)
+![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/imagen%206.png)
 
 # Rogue AP (unauthorized  access point)
 
@@ -156,11 +156,11 @@ git clone --depht 1 (url del repositorio)
 
 y activamos la antena en modo monitor con airmon-ng que es una integracion de aircrack-ng
 
-![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/image%201.png)
+![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/image%201.png)
 
 ## REQUERIMIENTOS
 
-![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/image%204.png)
+![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/image%204.png)
 
 1. **PHP**: Lenguaje de programación para crear páginas web dinámicas.
 2. **dnsmasq**: Software que asigna direcciones IP y resuelve nombres de dominio en redes.
@@ -176,7 +176,7 @@ y activamos la antena en modo monitor con airmon-ng que es una integracion de ai
 
 ## ASIGNACIÓN DE CAMPOS PARA NUESTRO ROGUE AP
 
-![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/image%205.png)
+![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/image%205.png)
 
 1. ahi escogemos nuestra antena.
 2. asignamos el nombre del punto de acceso.
@@ -187,26 +187,26 @@ y activamos la antena en modo monitor con airmon-ng que es una integracion de ai
 
 ahora una vez asignado los campos nos pone en modo escucha y nos pone un campo de victimas a conectarse:
 
-![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/image%206.png)
+![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/image%206.png)
 
 ### SIMULACIÓN DE LA VICTIMA
 
 inicialmente la victima que esta en el mall vera la red libre aparentemente legitima del centro comercial pero sera nuestro Rogue AP
 
-![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/imagen%207.png)
+![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/imagen%207.png)
 
 Se conectara:
 
-![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/imagen%208.png)
+![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/imagen%208.png)
 
 una vez conectado lo que hará el rogue ap es redirigir a la victima al siguiente formulario:
 
-![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/imagen%209.png)
+![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/imagen%209.png)
 
 una vez la victima llene los campos aparecerá lo siguiente:
 
-![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/imagen%2010.png)
+![imagen.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/imagen%2010.png)
 
 pero por detrás nosotros ya habremos recibido los datos.
 
-![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/image%207.png)
+![image.png](Secuestro%20de%20handshake%20y%20Rogue%20AP/image%207.png)
