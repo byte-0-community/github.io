@@ -4,7 +4,7 @@
 
 - **`Aircrack-ng`**: Es una suite de herramientas para auditoría y seguridad de redes Wi-Fi. Se usa para capturar datos de redes inalámbricas y crackear contraseñas de redes protegidas.
     
-    ![1_anlLWC6WzK1ZqafjXg_f0Q.png](Secuestro%20de%20handshake%20y%20Rogue%20AP%201f23549844818091a3d5d32144ba5eb0/1_anlLWC6WzK1ZqafjXg_f0Q.png)
+    ![1_anlLWC6WzK1ZqafjXg_f0Q.png]("Secuestro de handshake y Rogue AP"/1_anlLWC6WzK1ZqafjXg_f0Q.png)
     
 - **`Antena con modo monitor`**: Es una antena o adaptador de red Wi-Fi que se configura para escuchar todo el tráfico de las redes cercanas, no solo el tráfico destinado a tu dispositivo. El modo monitor es esencial para analizar redes Wi-Fi.
     
