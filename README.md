@@ -15,40 +15,32 @@ Somos una comunidad comprometida con el aprendizaje, la creatividad y la colabor
 
 ### 🔹 Apeiron
 
-[![Trabajo de Juliana](img/juliana.png)](trabajos/individuales/juliana/trabajo1.pdf)
+[![Trabajo de Apeiron](img/apeiron.png)](Daniel%J.%Benito%Aka.%"Apeiron"/Secuestro%de%handshake%y%Rogue%AP)
 
-> Análisis de seguridad en redes internas y auditoría de WordPress.
-
----
-
-### 🔹 Joao
-
-[![Trabajo de Paola](img/paola.png)](trabajos/individuales/paola/ensayo_infraestructura_cloud.pdf)
-
-> Ensayo: Infraestructura en la nube y prácticas DevSecOps.
-
-
-### 🔹 Apeiron
-
-[![Trabajo de Juliana](img/juliana.png)](trabajos/individuales/juliana/trabajo1.pdf)
-
-> Análisis de seguridad en redes internas y auditoría de WordPress.
+> Secuestro de handshake y Rogue AP.
 
 ---
 
 ### 🔹 Joao
 
-[![Trabajo de Paola](img/paola.png)](trabajos/individuales/paola/ensayo_infraestructura_cloud.pdf)
+[![Trabajo de Joao](img/joao.png)](Joao%Daniel%Delgado%Tito/)
 
-> Ensayo: Infraestructura en la nube y prácticas DevSecOps.
+> Proyecto de Phishing Educativo.
+
+
+### 🔹 Juan
+
+[![Trabajo de Juan](img/juan.png)](Juan%raul%yucra/)
+
+> 
+
 ---
 
-### 🤝 Proyecto Colaborativo - Infraestructura Segura
+### 🔹 Guerreros
 
-[![Proyecto Infraestructura Segura](img/colaborativo1.png)](trabajos/proyectos_colaborativos/infraestructura_segura/index.md)
+[![Trabajo de Guerreros](img/guerreros.png)](Richard%Guerreros%Gomez/LABORATORIO-TRABAJO-1.pdf)
 
-> Un esfuerzo grupal por definir buenas prácticas de arquitectura segura y servicios distribuidos.
-
+> CTF:resolv machine for Dokerlabs (DATABASE-MEDIUM)
 ---
 
 ## 📝 Cómo Contribuir
@@ -70,8 +62,7 @@ Gracias a todos los miembros que día a día aportan con su creatividad y esfuer
 
 ## 📬 Contacto
 
-¿Tienes dudas o sugerencias? Escríbenos a: [comunidad@ejemplo.com](mailto:comunidad@ejemplo.com)  
-O visita nuestro sitio: [https://comunidad-ejemplo.com](https://comunidad-ejemplo.com)
+¿Tienes dudas o sugerencias? Escríbenos a: [byte-0-community@proton.me](byte-0-community@proton.me)  
 
 ---
 
