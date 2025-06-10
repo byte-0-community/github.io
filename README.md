@@ -23,7 +23,7 @@ Somos una comunidad comprometida con el aprendizaje, la creatividad y la colabor
 
 ### 🔹 Joao
 
-[![Trabajo de Joao](img/joao.png)](Joao%Daniel%Delgado%Tito/)
+[![Trabajo de Joao](img/joao.png)](Joao%20Daniel%20Delgado%20Tito/)
 
 > Proyecto de Phishing Educativo.
 
