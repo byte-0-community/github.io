@@ -15,7 +15,7 @@ Somos una comunidad comprometida con el aprendizaje, la creatividad y la colabor
 
 ### 🔹 Apeiron
 
-[![Trabajo de Apeiron](img/apeiron.png)](Daniel%J.%Benito%Aka.%"Apeiron"/Secuestro%de%handshake%y%Rogue%AP)
+[![Trabajo de Apeiron](img/Apeiron.png)](Daniel%J.%Benito%Aka.%"Apeiron"/Secuestro%de%handshake%y%Rogue%AP)
 
 > Secuestro de handshake y Rogue AP.
 
