@@ -38,7 +38,7 @@ Somos una comunidad comprometida con el aprendizaje, la creatividad y la colabor
 
 ### 🔹 Guerreros
 
-[![Trabajo de Guerreros](img/guerreros.png)](Richard%Guerreros%Gomez/LABORATORIO-TRABAJO-1.pdf)
+[![Trabajo de Guerreros](img/guerreros.png)](Richard%20Guerreros%20Gomez/LABORATORIO-TRABAJO-1.pdf)
 
 > CTF:resolv machine for Dokerlabs (DATABASE-MEDIUM)
 ---
